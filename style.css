@@ -1,0 +1,122 @@
+/* Used Fonts
+<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Libre+Baskerville|Ma+Shan+Zheng|Noto+Serif+TC&display=swap" rel="stylesheet"> 
+
+font-family: 'Libre Baskerville', serif;
+font-family: 'Noto Serif TC', serif;
+font-family: 'Ma Shan Zheng', cursive;
+font-family: 'Dancing Script', cursive; */
+.col-left{
+    float: left;
+    min-width: 20%;
+}
+.col-center{
+    float: left;
+    width: 60vw;
+    box-shadow: 10px 10px 10px 5px grey;
+}
+.row::after{
+    content: "";
+    display: table;
+}
+nav{
+    margin-top: -10px;
+    position: fixed;
+    background-image: url(./silbury-hill-hero.webp);
+    background-repeat: no-repeat;
+    float: right;
+    background-size: 60vw;
+    min-width: 60vw;
+    min-height: 31.2vh;
+}
+nav li{
+    display: block;
+    text-align: right;
+    margin-right: 75px;
+    list-style: none;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: xx-large;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+.header{
+    min-height: 31.2vw;
+}
+body {
+    font-family: 'Segoe UI';    
+}
+body h1,h2,h3,h4,h5,h6{
+    margin: 5px;
+}
+body p{
+    /* text-indent: 36px; */
+    margin: 5px;
+}
+body q{
+    font-family: 'Libre Baskerville', serif;
+    font-size: larger;
+    margin-left: 20px;
+    box-shadow: 5px 5px 15px 3px grey;
+}
+blockquote {
+    display: block;
+    border-width: 2px 0;
+    border-style: solid;
+    border-color: #eee;
+    padding: 1.5em 0 0.5em;
+    margin: 1.5em 0;
+    position: relative;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    z-index: -1;
+  }
+  blockquote:before {
+    content: '\201C' ;
+    position: absolute;
+    top: 0em;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    width: 3rem;
+    height: 2rem;
+    font: 3em/1.08em 'PT Sans', sans-serif;
+    color: #666;
+    text-align: center;
+  }
+  blockquote:after {
+    content: "\2013\2003" attr(cite);
+    display: block;
+    text-align: right;
+    margin-right: 5px;
+    font-size: medium;
+    font-family: 'Dancing Script', cursive;
+  }
+/* Key Features li modify */
+li.key-feature {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-indent: -1rem;
+}
+#price::before{
+    content: "📈";
+}
+#score::before{
+    content: "💯";
+}
+#tag::before{
+    content: "🏷️";
+}
+#compare::before{
+    content: "🔀";
+}
+#forum::before{
+    content: "💬";
+}
+#consultation::before{
+    content: "📞";
+}
+#webapp::before{
+    content: "📱";
+}
