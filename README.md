@@ -1,7 +1,7 @@
 # hill-Web-static
 A static website of [Software-Engineering-in-Construction-Information-Systems](https://github.com/JuenTingShie/Software-Engineering-in-Construction-Information-Systems)
 
-index.html(main page)    
+index.html([main page](https://juentingshie.github.io/hill-Web-static/index.html))    
 　|-nav{    
 　|　　background-image: url(./silbury-hill-hero.webp);    
 　|　　}     
