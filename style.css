@@ -2,6 +2,7 @@
 <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Libre+Baskerville|Ma+Shan+Zheng|Noto+Serif+TC&display=swap" rel="stylesheet"> 
 
 font-family: 'Libre Baskerville', serif;
+font-family: 'Segoe UI', serif;;   
 font-family: 'Noto Serif TC', serif;
 font-family: 'Ma Shan Zheng', cursive;
 font-family: 'Dancing Script', cursive; */
@@ -27,6 +28,7 @@ nav{
     background-size: 60vw;
     min-width: 60vw;
     min-height: 31.2vh;
+    z-index: 1;
 }
 nav li{
     display: block;
@@ -44,10 +46,14 @@ nav li a{
     min-height: 31.2vw;
 }
 body {
-    font-family: 'Segoe UI';    
+    font-family: 'Segoe UI', serif;;    
 }
 body h1,h2,h3,h4,h5,h6{
     margin: 5px;
+}
+body p mark{
+    background-color: yellow;
+    font-weight: bold;
 }
 body p{
     /* text-indent: 36px; */
@@ -69,7 +75,7 @@ blockquote {
     position: relative;
     text-align: center;
     font-family: 'Libre Baskerville', serif;
-    z-index: -1;
+    z-index: 0;
   }
   blockquote:before {
     content: '\201C' ;
@@ -85,7 +91,7 @@ blockquote {
     text-align: center;
   }
   blockquote:after {
-    content: "\2013\2003" attr(cite);
+    content: attr(cite);
     display: block;
     text-align: right;
     margin-right: 5px;
@@ -120,3 +126,4 @@ li.key-feature {
 #webapp::before{
     content: "📱";
 }
+/* Key Features li modify */
