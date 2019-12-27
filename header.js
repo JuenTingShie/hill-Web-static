@@ -1,7 +1,8 @@
 document.writeln('<nav>');
 document.writeln('    <div class=\'container\'>');
 document.writeln('        <ul>');
-document.writeln('            <li><a href="./index.html">Hill⛰️</a></li>');
+document.writeln(
+    '            <li><a href=\'./index.html\'>Hill⛰️</a></li>');
 document.writeln('        </ul>');
 document.writeln('        <ul>');
 document.writeln('            <li><a href=\'./about.html\'>About</a></li>');
@@ -9,6 +10,11 @@ document.writeln('        </ul>');
 document.writeln('        <ul>');
 document.writeln('            <li><a href=\'./contact.html\'>Contact</a></li>');
 document.writeln('        </ul>');
+document.writeln('    </div>');
+document.writeln('    <div class=\'under-nav\'>');
+document.writeln('        <li><a href=\'#\'>Sell stuff</a></li>');
+document.writeln('        <li><a href=\'#\'>Login</a></li>');
+document.writeln('        <li><a href=\'#\'>Sign up</a></li>');
 document.writeln('    </div>');
 document.writeln('</nav>');
 document.writeln('<div class=\'header\'></div>');

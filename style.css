@@ -39,7 +39,7 @@ font-family: 'Dancing Script', cursive; */
     content: "";
     display: table;
 }
-nav{
+nav {
     margin-top: -10px;
     position: fixed;
     background-image: url(./silbury-hill-hero.webp);
@@ -51,7 +51,7 @@ nav{
     min-height: 30vmin;
     z-index: 1;
 }
-nav li{
+nav div.container li{
     display: block;
     text-align: right;
     margin-right: 75px;
@@ -59,9 +59,19 @@ nav li{
     font-family: 'Ma Shan Zheng', cursive;
     font-size: xx-large;
 }
-nav li a{
+nav div.container li a{
     text-decoration: none;
     color: black;
+}
+nav div.under-nav{
+    text-align: center;
+}
+nav div.under-nav li{
+    display: inline;
+    text-decoration: none;
+}
+nav div.under-nav li a{
+    color: #fff;
 }
 .header{
     min-height: 30vmin;
