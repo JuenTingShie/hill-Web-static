@@ -1,7 +1,7 @@
 document.writeln('<nav>');
 document.writeln('    <div class=\'container\'>');
 document.writeln('        <ul>');
-document.writeln('            <li><a href=\'./index.html\'>Hill</a></li>');
+document.writeln('            <li><a href="./index.html">Hill⛰️</a></li>');
 document.writeln('        </ul>');
 document.writeln('        <ul>');
 document.writeln('            <li><a href=\'./about.html\'>About</a></li>');

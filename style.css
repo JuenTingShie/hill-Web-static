@@ -6,6 +6,26 @@ font-family: 'Segoe UI', serif;;
 font-family: 'Noto Serif TC', serif;
 font-family: 'Ma Shan Zheng', cursive;
 font-family: 'Dancing Script', cursive; */
+@media (min-width:0px)and(max-width:900px){
+    .col-left{
+        float: left;
+        min-width: 0%;
+    }
+    .col-center{
+        float: left;
+        width: 80vw;
+        box-shadow: 10px 10px 10px 5px grey;
+    }
+    .row::after{
+        content: "";
+        display: table;
+    }
+    nav{
+        background-size: inherit;
+        background-size: 100vw;
+        min-width: 100vw;
+    }
+}
 .col-left{
     float: left;
     min-width: 20%;
@@ -23,11 +43,12 @@ nav{
     margin-top: -10px;
     position: fixed;
     background-image: url(./silbury-hill-hero.webp);
+    background-position: center center;
     background-repeat: no-repeat;
     float: right;
     background-size: 60vw;
     min-width: 60vw;
-    min-height: 31.2vh;
+    min-height: 30vmin;
     z-index: 1;
 }
 nav li{
@@ -43,7 +64,8 @@ nav li a{
     color: black;
 }
 .header{
-    min-height: 31.2vw;
+    min-height: 30vmin;
+    max-height: 300px;
 }
 body {
     font-family: 'Segoe UI', serif;;    
