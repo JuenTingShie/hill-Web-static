@@ -13,7 +13,7 @@ header.js(to include nav to each pages)
 　|    
 silbury-hill-hero.webp([Picture Source](https://www.english-heritage.org.uk/visit/places/silbury-hill/))   
 　|    
-style.css(style all pages, make with ❤️ and time ~~also life~~)
+style.css(style all pages, make with ❤️ and time ~~also life~~)    
 　|-Used Fonts:    
 　|　　font-family: 'Libre Baskerville', serif;    
 　|　　font-family: 'Noto Serif TC', serif;    
